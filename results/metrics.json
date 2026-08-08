@@ -1,0 +1,8 @@
+{
+  "baseline_majority_class_accuracy": 0.8595,
+  "baseline_majority_class_f1": 0.0,
+  "model_accuracy": 0.9633,
+  "model_f1_failure_class": 0.8661,
+  "model_roc_auc": 0.9887,
+  "failure_class_prevalence": 0.1405
+}
