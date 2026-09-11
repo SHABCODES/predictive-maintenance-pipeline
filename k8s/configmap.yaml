@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: predictive-maintenance-config
+data:
+  WINDOW_SIZE: "5"
+  FAILURE_THRESHOLD: "30"
+  LOG_LEVEL: "INFO"
+  DB_HOST: "predictive-maintenance-postgres"
+  DB_NAME: "maintenance"
+  DB_USER: "postgres"
