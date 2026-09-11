@@ -1,0 +1,23 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+engine_data.db
+*.egg-info/
+.venv/
+.env
+.coverage
+*.db
+
+# Generated ML artifacts — not committed; reproduced via main.py
+results/
+predictive_maintenance_model.pkl
+predictive_maintenance_model_features.json
+
+# Terraform local state — never commit real state
+terraform/.terraform/
+terraform/.terraform.lock.hcl
+terraform/terraform.tfstate
+terraform/terraform.tfstate.backup
+
+# Load test scratch
+load_test.py
